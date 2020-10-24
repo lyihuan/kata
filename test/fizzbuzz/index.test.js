@@ -1,4 +1,4 @@
-import fizzBuzz from "../src"
+import fizzBuzz from "../../src/fizzbuzz"
 
 describe('fizzbuzz', () => {
 

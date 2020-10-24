@@ -2,7 +2,7 @@
   "name": "kata",
   "version": "1.0.0",
   "description": "",
-  "main": "src/index.js",
+  "main": "src/fizzbuzz/index.js",
   "scripts": {
     "test": "jest",
     "lint-fix": "eslint --fix src"
