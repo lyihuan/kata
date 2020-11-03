@@ -5,7 +5,8 @@
   "main": "src/fizzbuzz/index.js",
   "scripts": {
     "test": "jest",
-    "lint-fix": "eslint --fix src"
+    "lint-fix": "eslint --fix src",
+    "coverage": "open ./coverage/lcov-report/index.html"
   },
   "husky": {
     "hooks": {
@@ -37,6 +38,7 @@
     "prettier": "^2.1.2"
   },
   "dependencies": {
+    "@jest/globals": "^26.6.2",
     "babel-eslint": "^10.1.0"
   }
 }

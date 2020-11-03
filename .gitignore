@@ -4,3 +4,7 @@
 
 # dependencies
 /node_modules
+
+
+#history
+.history
