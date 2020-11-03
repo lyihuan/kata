@@ -14,4 +14,8 @@ describe('英尺转化', () => {
   test('1yard=36inch', () => {
     expect(new UnitConverter(1, Unit.YARD).getUnitRateNumber()).toBe(new UnitConverter(36, Unit.INCH).getUnitRateNumber());
   })
+
+  test('1yard=3foot', () => {
+    expect(new UnitConverter(1, Unit.YARD).getUnitRateNumber()).toBe(new UnitConverter(3, Unit.FOOT).getUnitRateNumber());
+  })
 });
